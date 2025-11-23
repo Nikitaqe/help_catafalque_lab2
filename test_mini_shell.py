@@ -8,7 +8,7 @@ from unittest.mock import patch, MagicMock
 
 # Добавляем путь к модулю для импорта
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
-from mini_shell import MiniShell
+from shell_commands import MiniShell
 
 class TestMiniShell(unittest.TestCase):
     def setUp(self):
